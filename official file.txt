@@ -1,0 +1,9 @@
+chmod +x *
+
+./patelji.sh
+
+chmod +x *
+
+pip install telebot pymongo aiohttp psutil
+
+chmod +x *

